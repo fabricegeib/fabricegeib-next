@@ -13,29 +13,26 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				{/* <h1 className={styles.title}>
-					Hello
-				</h1> */}
-				<div className="">
-					<p>Hello</p>
+				<div>
+					<p className={styles.title}>Hello</p>
 					<p>
 						I'm Fabrice Geib, a French web integrator and front end developer
 					</p>
 
-					{/* <p>I love to experiment interactivity</p>
+					<p>I love to experiment interactivity</p>
 
-          <p>
-            My work consists of a healthy mix of useful interface libraries,
-            pointless animations and minimalist games.
-          </p>
+					<p>
+						My work consists of a healthy mix of useful interface libraries,
+						pointless animations and minimalist games.
+					</p>
 
-          <p>
-            Most of my projects are released open source so you can freely
-            modify or improve on them.
-          </p> */}
+					<p>
+						Most of my projects are released open source so you can freely
+						modify or improve on them.
+					</p>
 				</div>
 
-				<div className="">
+				<div>
 					<h2>I worked for</h2>
 					<div className={styles.grid}>
 						<a
@@ -160,7 +157,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="">
+				<div>
 					<h2>Github</h2>
 				</div>
 
@@ -191,7 +188,7 @@ export default function Home() {
 				</div>
 
 				<p className={styles.description}>
-					Get started by editing{" "}
+					Get started by editing
 					<code className={styles.code}>pages/index.js</code>
 				</p>
 
@@ -247,7 +244,7 @@ export default function Home() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Powered by{" "}
+					Powered by
 					<span className={styles.logo}>
 						<Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
 					</span>
