@@ -40,7 +40,7 @@ export default function Home() {
 					<div className={styles.grid}>
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://www.fff.fr/?home"
 							rel="noreferrer"
 							target="_blank"
@@ -50,7 +50,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://mariannecanarelli.com/"
 							rel="noreferrer"
 							target="_blank"
@@ -60,7 +60,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://www.lequipe.fr/"
 							rel="noreferrer"
 							target="_blank"
@@ -70,7 +70,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://helmi.im/"
 							rel="noreferrer"
 							target="_blank"
@@ -81,7 +81,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://lespetitspullsdabeth.fr/"
 							rel="noreferrer"
 							target="_blank"
@@ -92,7 +92,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://diplomatie-studio.fr/"
 							rel="noreferrer"
 							target="_blank"
@@ -103,7 +103,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://hanneleart.com/"
 							rel="noreferrer"
 							target="_blank"
@@ -114,7 +114,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://florianbrennemann.com/"
 							rel="noreferrer"
 							target="_blank"
@@ -125,7 +125,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://www.societegenerale.fr/"
 							rel="noreferrer"
 							target="_blank"
@@ -136,7 +136,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://www.lediamantaire-paris.fr/"
 							rel="noreferrer"
 							target="_blank"
@@ -147,7 +147,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://lagiraudiereblaisongohier.com/"
 							rel="noreferrer"
 							target="_blank"
@@ -158,7 +158,7 @@ export default function Home() {
 
 						<a
 							className={styles.card}
-							class="projects-link"
+
 							href="https://www.sublimdesign.com/"
 							rel="noreferrer"
 							target="_blank"
@@ -206,44 +206,44 @@ export default function Home() {
 
 				<div className={styles.grid}>
 					<Link href="/api/hello"><a className={styles.card}>
-						<h2>Api - Hello &rarr;</h2>
+						<h2>Api - Hello →</h2>
 						<p>Api pages on your Next.js site.</p>
 					</a></Link>
 
 					<Link href="/api/hello"><a className={styles.card}>
-						<h2>Api - Hello &rarr;</h2>
+						<h2>Api - Hello →</h2>
 						<p>Api pages on your Next.js site.</p>
 					</a></Link>
 
 					<Link href="/api/hello"><a className={styles.card}>
-						<h2>Api - Hello &rarr;</h2>
+						<h2>Api - Hello →</h2>
 						<p>Api pages on your Next.js site.</p>
 					</a></Link>
 
 					<Link href="/api/hello"><a className={styles.card}>
-						<h2>Api - Hello &rarr;</h2>
+						<h2>Api - Hello →</h2>
 						<p>Api pages on your Next.js site.</p>
 					</a></Link>
 
 					<Link href="/api/hello"><a className={styles.card}>
-						<h2>Api - Hello &rarr;</h2>
+						<h2>Api - Hello →</h2>
 						<p>Api pages on your Next.js site.</p>
 					</a></Link>
 
 					<Link href="/api/hello">
 						<a className={styles.card}>
-							<h2>Api - Hello &rarr;</h2>
+							<h2>Api - Hello →</h2>
 							<p>Api pages on your Next.js site.</p>
 						</a>
 					</Link>
 
 					<Link href="/api/hello"><a className={styles.card}>
-						<h2>Api - Hello &rarr;</h2>
+						<h2>Api - Hello →</h2>
 						<p>Api pages on your Next.js site.</p>
 					</a></Link>
 
 					<Link href="/api/hello"><a className={styles.card}>
-						<h2>Api - Hello &rarr;</h2>
+						<h2>Api - Hello →</h2>
 						<p>Api pages on your Next.js site.</p>
 					</a></Link>
 
