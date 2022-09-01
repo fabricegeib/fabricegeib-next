@@ -19,7 +19,7 @@ export default function Home() {
 						I&apos;m Fabrice Geib, a French web integrator and front end developer
 					</p>
 
-					<p>I love to experiment interactivity</p>
+					{/* <p>I love to experiment interactivity</p>
 
 					<p>
 						My work consists of a healthy mix of useful interface libraries,
@@ -29,7 +29,7 @@ export default function Home() {
 					<p>
 						Most of my projects are released open source so you can freely
 						modify or improve on them.
-					</p>
+					</p> */}
 				</div>
 
 				<div>
