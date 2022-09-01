@@ -75,7 +75,6 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							{" "}
 							Helmi Domínguez Vanha-aho
 						</a>
 
@@ -86,7 +85,6 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							{" "}
 							Les petits pulls d'Abeth
 						</a>
 
@@ -97,7 +95,6 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							{" "}
 							Diplomatie studio
 						</a>
 
@@ -108,7 +105,6 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							{" "}
 							Hannele Wanha-aho
 						</a>
 
@@ -119,7 +115,6 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							{" "}
 							Florian Brennemann
 						</a>
 
@@ -130,7 +125,6 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							{" "}
 							Société Générale
 						</a>
 
@@ -141,7 +135,6 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							{" "}
 							Le Diamantaire
 						</a>
 
@@ -152,7 +145,6 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							{" "}
 							Château de la Giraudière
 						</a>
 
@@ -163,7 +155,6 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							{" "}
 							SublimDesign
 						</a>
 					</div>
