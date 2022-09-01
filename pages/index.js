@@ -16,7 +16,7 @@ export default function Home() {
 				<div>
 					<p className={styles.title}>Hello</p>
 					<p>
-						I'm Fabrice Geib, a French web integrator and front end developer
+						I&apos;m Fabrice Geib, a French web integrator and front end developer
 					</p>
 
 					<p>I love to experiment interactivity</p>
@@ -62,7 +62,7 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							L'Équipe
+							L&apos;Équipe
 						</a>
 
 						<a
@@ -82,7 +82,7 @@ export default function Home() {
 							rel="noreferrer"
 							target="_blank"
 						>
-							Les petits pulls d'Abeth
+							Les petits pulls d&apos; Abeth
 						</a>
 
 						<a
