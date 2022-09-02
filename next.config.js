@@ -2,10 +2,9 @@
 const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
+	basePath: '/next-fabricegeib',
 }
 
 // module.exports = nextConfig
 
-module.exports = {
-	basePath: '/next-fabricegeib',
-}
+module.exports = nextConfig
