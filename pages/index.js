@@ -34,121 +34,85 @@ export default function Home() {
 
 				<div>
 					<h2>I worked for</h2>
-					<div className={styles.grid}>
-						<a
-							className={styles.card}
-
-							href="https://www.fff.fr/?home"
+					<div className={styles.works}>
+						<a href="https://www.fff.fr/?home"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Fédération Française de Football
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://mariannecanarelli.com/"
+						<a href="https://mariannecanarelli.com/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Marianne Canarelli
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://www.lequipe.fr/"
+						<a href="https://www.lequipe.fr/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							L&apos;Équipe
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://helmi.im/"
+						<a href="https://helmi.im/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Helmi Domínguez Vanha-aho
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://lespetitspullsdabeth.fr/"
+						<a href="https://lespetitspullsdabeth.fr/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Les petits pulls d&apos; Abeth
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://diplomatie-studio.fr/"
+						<a href="https://diplomatie-studio.fr/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Diplomatie studio
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://hanneleart.com/"
+						<a href="https://hanneleart.com/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Hannele Wanha-aho
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://florianbrennemann.com/"
+						<a href="https://florianbrennemann.com/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Florian Brennemann
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://www.societegenerale.fr/"
+						<a href="https://www.societegenerale.fr/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Société Générale
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://www.lediamantaire-paris.fr/"
+						<a href="https://www.lediamantaire-paris.fr/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Le Diamantaire
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://lagiraudiereblaisongohier.com/"
+						<a href="https://lagiraudiereblaisongohier.com/"
 							rel="noreferrer"
 							target="_blank"
 						>
 							Château de la Giraudière
 						</a>
 
-						<a
-							className={styles.card}
-
-							href="https://www.sublimdesign.com/"
+						<a href="https://www.sublimdesign.com/"
 							rel="noreferrer"
 							target="_blank"
 						>
