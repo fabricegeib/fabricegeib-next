@@ -154,56 +154,56 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/api/hello">
+          <Link href="/next-fabricegeib/api/hello">
             <a className={styles.card}>
               <h2>Api - Hello →</h2>
               <p>Api pages on your Next.js site.</p>
             </a>
           </Link>
 
-          <Link href="/api/hello">
+          <Link href="/next-fabricegeib/api/hello">
             <a className={styles.card}>
               <h2>Api - Hello →</h2>
               <p>Api pages on your Next.js site.</p>
             </a>
           </Link>
 
-          <Link href="/api/hello">
+          <Link href="/next-fabricegeib/api/hello">
             <a className={styles.card}>
               <h2>Api - Hello →</h2>
               <p>Api pages on your Next.js site.</p>
             </a>
           </Link>
 
-          <Link href="/api/hello">
+          <Link href="/next-fabricegeib/api/hello">
             <a className={styles.card}>
               <h2>Api - Hello →</h2>
               <p>Api pages on your Next.js site.</p>
             </a>
           </Link>
 
-          <Link href="/api/hello">
+          <Link href="/next-fabricegeib/api/hello">
             <a className={styles.card}>
               <h2>Api - Hello →</h2>
               <p>Api pages on your Next.js site.</p>
             </a>
           </Link>
 
-          <Link href="/api/hello">
+          <Link href="/next-fabricegeib/api/hello">
             <a className={styles.card}>
               <h2>Api - Hello →</h2>
               <p>Api pages on your Next.js site.</p>
             </a>
           </Link>
 
-          <Link href="/api/hello">
+          <Link href="/next-fabricegeib/api/hello">
             <a className={styles.card}>
               <h2>Api - Hello →</h2>
               <p>Api pages on your Next.js site.</p>
             </a>
           </Link>
 
-          <Link href="/api/hello">
+          <Link href="/next-fabricegeib/api/hello">
             <a className={styles.card}>
               <h2>Api - Hello →</h2>
               <p>Api pages on your Next.js site.</p>
