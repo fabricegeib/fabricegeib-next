@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
+	reactStrictMode: true,
+	swcMinify: true,
+	basePath: '/next-fabricegeib'
 }
 
 module.exports = nextConfig
