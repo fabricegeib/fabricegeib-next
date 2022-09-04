@@ -172,19 +172,23 @@ export default function Home() {
           <h2>Github</h2>
         </div>
 
-        <h2>I listen</h2>
+        <div className="">
+          <h2>I listen</h2>
+        </div>
 
-        <h2>Q&A</h2>
+        <div className="">
+          <h2>Q&A</h2>
 
-        <p>
-          Where are you based?
-          <br />
-          What are you working on?
-          <br />
-          Where have you worked?
-          <br />
-          Are you available for hire ?
-        </p>
+          <p>
+            Where are you based?
+            <br />
+            What are you working on?
+            <br />
+            Where have you worked?
+            <br />
+            Are you available for hire ?
+          </p>
+        </div>
 
         <div className={styles.social}>
           <h2>Social</h2>
@@ -219,45 +223,29 @@ export default function Home() {
             <p>Api pages on your Next.js site.</p>
           </a>
 
-          <a href="/series" className={styles.card}>
-            <h2>Series &rarr;</h2>
-            <p>
-              The list of series I watch, Minimalist text. The list of series I
-              watch, Minimalist text. The list of series I watch Minimalist
-              text.
-            </p>
+          <a href="/api/hello" className={styles.card}>
+            <h2>Api - Hello &rarr;</h2>
+            <p>Api pages on your Next.js site.</p>
           </a>
 
-          <a href="/series" className={styles.card}>
-            <h2>Series &rarr;</h2>
-            <p>
-              The list of series I watch. The list of series I watch. The list
-              of series I watch.
-            </p>
+          <a href="/api/hello" className={styles.card}>
+            <h2>Api - Hello &rarr;</h2>
+            <p>Api pages on your Next.js site.</p>
           </a>
 
-          <a href="/series" className={styles.card}>
-            <h2>Series &rarr;</h2>
-            <p>
-              The list of series I watch. The list of series I watch. The list
-              of series I watch.
-            </p>
+          <a href="/api/hello" className={styles.card}>
+            <h2>Api - Hello &rarr;</h2>
+            <p>Api pages on your Next.js site.</p>
           </a>
 
-          <a href="/series" className={styles.card}>
-            <h2>Series &rarr;</h2>
-            <p>
-              The list of series I watch. The list of series I watch. The list
-              of series I watch.
-            </p>
+          <a href="/api/hello" className={styles.card}>
+            <h2>Api - Hello &rarr;</h2>
+            <p>Api pages on your Next.js site.</p>
           </a>
 
-          <a href="/series" className={styles.card}>
-            <h2>Series &rarr;</h2>
-            <p>
-              The list of series I watch. The list of series I watch. The list
-              of series I watch.
-            </p>
+          <a href="/api/hello" className={styles.card}>
+            <h2>Api - Hello &rarr;</h2>
+            <p>Api pages on your Next.js site.</p>
           </a>
         </div>
       </main>
