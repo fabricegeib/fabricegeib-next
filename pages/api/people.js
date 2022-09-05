@@ -2,14 +2,9 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    title: "hello api",
-    owner: "Fabrice Geib",
-    people: "/api/people/",
-    planets: "https://next-fabricegeib.vercel.app/api/planets/",
-    films: "https://next-fabricegeib.vercel.app/api/films/",
-    species: "https://next-fabricegeib.vercel.app/api/species/",
-    vehicles: "https://next-fabricegeib.vercel.app/api/vehicles/",
-    starships: "https://next-fabricegeib.vercel.app/api/starships/",
+    count: 3,
+    next: "/api/people/?page=2",
+    previous: null,
     results: [
       {
         name: "Charly",
