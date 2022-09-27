@@ -2,7 +2,7 @@
 
 export default function handler(req, res) {
   res.status(200).json({
-    title: "api",
+    title: "next-fabricegeib - api",
     owner: "Fabrice Geib",
     pages: [
       { people: "/api/people/" },
