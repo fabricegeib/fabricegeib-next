@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Le Diamantaire",
+    "url": "https://www.lediamantaire-paris.fr/",
+    "period": "2016"
+  },
+  {
+    "id": "2",
+    "name": "SublimDesign",
+    "url": "https://www.sublimdesign.com/",
+    "period": "2016"
+  },
+  {
+    "id": "3",
+    "name": "Château de la Giraudière",
+    "url": "https://lagiraudiereblaisongohier.com/",
+    "period": "2016"
+  },
+  {
+    "id": "4",
+    "name": "Société Générale",
+    "url": "https://www.societegenerale.fr/",
+    "period": "2016"
+  },
+  {
+    "id": "5",
+    "name": "L'Équipe",
+    "url": "https://lequipe.fr/",
+    "period": "2016"
+  },
+  {
+    "id": "6",
+    "name": "Fédération Française de Football",
+    "url": "https://www.fff.fr/",
+    "period": "2016"
+  },
+  {
+    "id": "7",
+    "name": "Helmi Domínguez Vanha-aho",
+    "url": "https://helmi.im/",
+    "period": "2016"
+  },
+  {
+    "id": "8",
+    "name": "Hannele Wanha-aho",
+    "url": "https://hanneleart.com/",
+    "period": "2016"
+  },
+  {
+    "id": "9",
+    "name": "Florian Brennemann",
+    "url": "https://florianbrennemann.com/",
+    "period": "2016"
+  },
+  {
+    "id": "10",
+    "name": "Les petits pulls d'Abeth",
+    "url": "https://lespetitspullsdabeth.fr/",
+    "period": "2016"
+  },
+  {
+    "id": "11",
+    "name": "Diplomatie studio",
+    "url": "https://diplomatie-studio.fr/",
+    "period": "2016"
+  },
+  {
+    "id": "12",
+    "name": "Marianne Canarelli",
+    "url": "https://mariannecanarelli.com/",
+    "period": "2016"
+  }
+]
