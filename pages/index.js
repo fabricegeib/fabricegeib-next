@@ -71,7 +71,7 @@ export default function Home({ repos }) {
             <div className="card">
               <p>clients</p>
               <Link href="api/clients" alt="lien">
-                lien 
+                lien
               </Link>
             </div>
             <div className="card">
@@ -136,7 +136,7 @@ export default function Home({ repos }) {
           <h2>I listen</h2>
         </div>
 
-        <div>
+        <div className="xxx">
           <h2>I watch</h2>
           <Link href="/shows">Shows</Link>
         </div>
