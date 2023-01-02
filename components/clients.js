@@ -17,15 +17,17 @@ function Clients() {
   if (isLoading) return <p>Loading...</p>;
   if (!data) return <p>No profile data</p>;
 
-  console.log(data);
+  console.log("Clients :", data);
 
   return (
     <div className="cards clients">
       {data.map((client) => (
-        <div className="card client" key={client.id}>
+        <div className="card client" key={client.id} data-id={client.id}>
           <p>{client.name}</p>
-          {/* <p>{client.id}</p> */}
-          <p>{client.url}</p>
+          <p>{client.description}</p>
+          {client.languages &&
+            client.languages.map((language) => <p>{language.name}</p>)}
+          <a href={client.url}>lien</a>
         </div>
       ))}
     </div>

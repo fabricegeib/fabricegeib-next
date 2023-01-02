@@ -4,7 +4,7 @@ import Link from "next/link";
 import { getGithubRepos } from "./api/github/fabricegeib/repos";
 import { useState } from "react";
 import Header from "../components/header";
-import Clients from "./clients";
+import Clients from "../components/clients";
 import Footer from "../components/footer";
 import homeStyles from "../styles/Home.module.scss";
 
@@ -49,15 +49,22 @@ export default function Home({ repos }) {
       <main className={homeStyles.main}>
         <div className="about">
           <h1 className={homeStyles.title}>Hello</h1>
-          <p>I&apos;m Fabrice Geib, a French web integrator and front end developer</p>
+          <p>
+            I&apos;m Fabrice Geib, a French web integrator and front end
+            developer
+          </p>
 
           <p>I love to experiment interactivity</p>
 
           <p>
-            My work consists of a healthy mix of useful interface libraries, pointless animations and minimalist games.
+            My work consists of a healthy mix of useful interface libraries,
+            pointless animations and minimalist games.
           </p>
 
-          <p>Most of my projects are released open source so you can freely modify or improve on them.</p>
+          <p>
+            Most of my projects are released open source so you can freely
+            modify or improve on them.
+          </p>
         </div>
 
         <div className="clients">
@@ -119,7 +126,12 @@ export default function Home({ repos }) {
           <div className="cards repos">
             {repos.map((repo) => (
               <>
-                <div className="card" key={repo.id} data-id={repo.id} data-language={repo.language}>
+                <div
+                  className="card"
+                  key={repo.id}
+                  data-id={repo.id}
+                  data-language={repo.language}
+                >
                   <h3>{repo.name}</h3>
                   <p>{repo.description}</p>
                   <p>{repo.pushed_at}</p>

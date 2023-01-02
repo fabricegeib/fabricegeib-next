@@ -2,8 +2,15 @@
   {
     "id": "1",
     "name": "Le Diamantaire",
+    "description": "website crée pour Alexis aka Le Diamantaire",
     "url": "https://www.lediamantaire-paris.fr/",
-    "period": "2016"
+    "period": "2016",
+    "test": "xxx",
+    "languages": [
+      { "name": "HTML" },
+      { "name": "CSS" },
+      { "name": "JavaScript" }
+    ]
   },
   {
     "id": "2",
