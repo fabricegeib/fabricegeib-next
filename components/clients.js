@@ -26,7 +26,9 @@ function Clients() {
           <p>{client.name}</p>
           <p>{client.description}</p>
           {client.languages &&
-            client.languages.map((language) => <p>{language.name}</p>)}
+            client.languages.map((language, index) => (
+              <p key={index}>{language.name}</p>
+            ))}
           <a href={client.url}>lien</a>
         </div>
       ))}
