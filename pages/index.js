@@ -5,6 +5,7 @@ import { getGithubRepos } from "./api/github/fabricegeib/repos";
 import { useState } from "react";
 import Header from "../components/header";
 import Clients from "../components/clients";
+import WordpressPosts from "../components/WordpressPosts";
 import Footer from "../components/footer";
 import homeStyles from "../styles/Home.module.scss";
 
@@ -131,6 +132,8 @@ export default function Home({ repos }) {
             ))}
           </div>
         </div>
+
+        <WordpressPosts />
 
         <div className="xxx">
           <h2>I listen</h2>

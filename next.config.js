@@ -3,12 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "api.betaseries.com",
-      },
-    ],
+    domains: ["api.betaseries.com", "366.fabricegeib.com"],
   },
 };
 
