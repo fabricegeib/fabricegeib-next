@@ -66,16 +66,26 @@
     monospace;
 }
 
-.grid {
-  display: flex;
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  // display: flex;
   /* align-items: center; */
   /* justify-content: center; */
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   /* max-width: 800px; */
+  @media (max-width: 1023px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 767px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-
 .card {
-  margin: 1rem;
+  // margin: 1rem;
   padding: 1.5rem;
   /* text-align: left; */
   color: inherit;
@@ -87,7 +97,6 @@
   /* flex-basis: 100%; */
   flex: 1 1 33%;
 }
-
 .card:hover,
 .card:focus,
 .card:active {

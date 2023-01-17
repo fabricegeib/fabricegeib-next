@@ -5,6 +5,7 @@ import { getGithubRepos } from "./api/github/fabricegeib/repos";
 import { useState } from "react";
 import Header from "../components/header";
 import Clients from "../components/clients";
+import WordpressPosts from "../components/WordpressPosts";
 import Footer from "../components/footer";
 import homeStyles from "../styles/Home.module.scss";
 
@@ -49,22 +50,15 @@ export default function Home({ repos }) {
       <main className={homeStyles.main}>
         <div className="about">
           <h1 className={homeStyles.title}>Hello</h1>
-          <p>
-            I&apos;m Fabrice Geib, a French web integrator and front end
-            developer
-          </p>
+          <p>I&apos;m Fabrice Geib, a French web integrator and front end developer</p>
 
           <p>I love to experiment interactivity</p>
 
           <p>
-            My work consists of a healthy mix of useful interface libraries,
-            pointless animations and minimalist games.
+            My work consists of a healthy mix of useful interface libraries, pointless animations and minimalist games.
           </p>
 
-          <p>
-            Most of my projects are released open source so you can freely
-            modify or improve on them.
-          </p>
+          <p>Most of my projects are released open source so you can freely modify or improve on them.</p>
         </div>
 
         <div className="clients">
@@ -126,12 +120,7 @@ export default function Home({ repos }) {
           <div className="cards repos">
             {repos.map((repo) => (
               <>
-                <div
-                  className="card"
-                  key={repo.id}
-                  data-id={repo.id}
-                  data-language={repo.language}
-                >
+                <div className="card repo" key={repo.id} data-id={repo.id} data-language={repo.language}>
                   <h3>{repo.name}</h3>
                   <p>{repo.description}</p>
                   <p>{repo.pushed_at}</p>
@@ -143,6 +132,8 @@ export default function Home({ repos }) {
             ))}
           </div>
         </div>
+
+        <WordpressPosts />
 
         <div className="xxx">
           <h2>I listen</h2>
@@ -184,19 +175,19 @@ export default function Home({ repos }) {
           <code className={homeStyles.code}>pages/index.js</code>
         </p>
 
-        <div className={homeStyles.grid}>
-          <Link className={homeStyles.card} href="/api/hello">
-            <h2>Api - Hello →</h2>
+        <div className={homeStyles.cards}>
+          <Link className={homeStyles.card} href="/api/clients">
+            <h2>Api - clients →</h2>
+            <p>Api clients</p>
+          </Link>
+
+          <Link className={homeStyles.card} href="/api/github/fabricegeib/repos">
+            <h2>Api - github repos →</h2>
             <p>Api pages on your Next.js site.</p>
           </Link>
 
           <Link className={homeStyles.card} href="/api/hello">
-            <h2>Api - Hello →</h2>
-            <p>Api pages on your Next.js site.</p>
-          </Link>
-
-          <Link className={homeStyles.card} href="/api/hello">
-            <h2>Api - Hello →</h2>
+            <h2>Api - hello →</h2>
             <p>Api pages on your Next.js site.</p>
           </Link>
         </div>
