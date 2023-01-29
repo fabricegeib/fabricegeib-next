@@ -54,9 +54,7 @@ export default function Home({ repos }) {
 
           <p>I love to experiment interactivity</p>
 
-          <p>
-            My work consists of a healthy mix of useful interface libraries, pointless animations and minimalist games.
-          </p>
+          <p>My work consists of a healthy mix of useful interface libraries, pointless animations and minimalist games.</p>
 
           <p>Most of my projects are released open source so you can freely modify or improve on them.</p>
         </div>
